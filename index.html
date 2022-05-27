@@ -23,7 +23,7 @@
 
         
         <button class="hamburger">
-            <span><a href="">Contact</a></span>
+            <span></span>
             <span></span>
             <span></span>
         </button>
@@ -38,21 +38,34 @@
     </div>
 
     <div class="middle-container">
-        <div class="carousel">
-            <img src="assets/images/hussain.png" alt="">
-            <div class="exp-container">
-                <h3>Lorem Ipsum Feum Sijam</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nullam ac leo id ipsum tempor facilisis sed a mauris.
-                    Phasellus semper dictum blandit. Sed vitae lobortis ipsum. 
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                    Aenean odio neque, lacinia sit amet est ut, ultricies molestie enim. Duis ut odio dignissim, porttitor magna quis, mollis mauris. 
-                    Suspendisse mattis enim et lorem sollicitudin tincidunt. 
-                    Praesent sodales dui sed ipsum porta placerat
-
-                </p>
-            </div>
-        <<!--  --></div>    
+        <img src="assets/images/carousel-background.png" alt="">
+        <div class="carousel" data-carousel>
+            <button class="carousel-btn prev" data-carousel-button="prev">&#8656</button>
+            <button class="carousel-btn next" data-carousel-button="next">&#8658</button>
+            <ul data-slides>
+                <li class="slides" data-active>
+                    <img src="assets/images/hussain.png" alt="ProfileImg">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        Nullam ac leo id ipsum tempor facilisis sed a mauris
+                        Phasellus semper dictum blandit. Sed vitae lobortis ipsum
+                        Nullam ac leo id ipsum tempor facilisis sed a mauris
+                    </h5>
+                </li>
+                <li class="slides">
+                    <p>
+                        Aenean odio neque, lacinia sit amet est ut, ultricies molestie enim. Duis ut odio dignissim, porttitor magna quis, mollis mauris. 
+                        Suspendisse mattis enim et lorem sollicitudin tincidunt. 
+                        Praesent sodales dui sed ipsum porta placerat
+                    </p>
+                </li>
+                <li class="slides">
+                    <p>
+                        Nullam ac leo id ipsum tempor facilisis sed a mauris.Phasellus semper dictum blandit. Sed vitae lobortis ipsum
+                        Nullam ac leo id ipsum tempor facilisis sed a mauris
+                    </p>
+                </li>
+            </ul>
+        </div>    
     </div>
 
     <script src="assets/js/main.js"></script>
