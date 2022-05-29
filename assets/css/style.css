@@ -214,6 +214,10 @@ nav h1:hover {
 
 /* Middle Container */
 
+.middle-container {
+  border: none;
+}
+
 .carousel {
   width: 55%;
   height: 50%;
@@ -235,6 +239,7 @@ nav h1:hover {
   position: relative;
   top: 32%;
   left: 70%;
+  margin-left: -1rem;
   text-align: left;
   width: 15%;
   padding: 0.25rem;
@@ -307,6 +312,55 @@ nav h1:hover {
   right: 1rem;
 }
 
+/* Footer */
+
+
+
+.bottom-container {
+  animation: animationFooter 10s infinite;
+  align-items: center;
+  width: 400%;
+  padding: 4rem;
+
+}
+
+.bottom-container a i {
+  position: relative;
+  left: 10%;
+  color: #fff;
+}
+
+.bottom-container a i:hover {
+  color: rgb(129, 172, 143);
+}
+
+@keyframes animationFooter {
+  0% {
+    background-color: rgb(0, 0, 0);
+  } 
+
+  25% {
+    background-color:rgb(71, 80, 99)
+  }
+
+  50% {
+    background-color:rgb(52, 72, 128)
+
+  }
+
+  75%{
+    background-color:rgb(65, 75, 94)
+
+  }
+
+  100%{
+    background-color:rgb(0, 0, 0)
+
+  }
+
+
+}
+
 /* Tablet Screen */
 
 @media (max-width: 768px){
@@ -326,6 +380,7 @@ nav h1:hover {
     font-size : 1rem;
   }
 }
+
 
 /* Mobile Screen */
 @media (max-width: 600px){
